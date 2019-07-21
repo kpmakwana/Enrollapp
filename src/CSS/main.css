@@ -1,0 +1,82 @@
+#root{
+    background-color: #DCFFFD;
+    height: 150vh;
+}
+
+header{
+    display: flex !important;
+    margin: auto;
+    align-items: center;
+    box-shadow: 10px -15px 40px grey;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+.App{
+    margin: 0% 15% 0% 15% !important;
+}
+.logo-container,
+.nav-links{
+    display: flex;
+}
+.logo-container{
+    margin: 10px 20px;
+    flex: 1;
+    cursor:pointer;
+}
+nav{
+    flex: 1;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+
+.error{
+    color: #D8000C;
+    display: none;
+}
+.error::before{
+    content: "*";
+}
+.dtl-row{
+    display: inline-flex;
+}
+.dtl-element{
+    flex: 1;
+    margin-left: 20%;
+}
+
+.std-details{
+    border-style: groove;
+    padding: 1%;
+}
+@media only screen and (max-width: 880px) {
+.table{
+    display: block !important;
+    overflow-x:auto;
+}
+}
+
+@media only screen and (max-width: 575px) {
+.nav{
+    display: inline-flex !important;
+}
+.logo-container
+{
+    display: none;
+}
+#git-link{
+    display: none;
+}
+.header{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+}

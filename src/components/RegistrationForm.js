@@ -157,14 +157,14 @@ class StudentForm extends Component {
                         Female
                     </label>
                     </div>
-                    <div className="error" id="err-gender">We ain't that mordern are we?</div>
+                    <div className="error" id="err-gender">Please select appropriate option</div>
                 </div>
                 </div>
             </fieldset>
             <div className="form-group row">
                 <div className="col-sm-2">Hobbies</div>
                 <div className="col-sm-10">
-                <div className="error" id="err-hobby">We are sure you have atleast 2 of them?</div>
+                <div className="error" id="err-hobby">Please select atleast 2 of them</div>
                 <div className="form-check">
                     <input className="form-check-input" type="checkbox" name="hobby" value="Reading" onChange={this.onInputChange} />
                     <label className="form-check-label" htmlFor="gridCheck1">

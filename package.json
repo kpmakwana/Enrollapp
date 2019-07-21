@@ -11,13 +11,13 @@
     "react-scripts": "3.0.1",
     "redux": "^4.0.4"
   },
-  "homepage": "http://kpmakwana.github.io/Enroll",
+  "homepage": "https://kpmakwana.github.io/Enrollapp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

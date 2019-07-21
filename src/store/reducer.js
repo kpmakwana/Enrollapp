@@ -7,7 +7,7 @@ let intialState = [
     {email: "akwana.kaushik98@gmail.com", password: "1", gender: "male", hobbies: ['Reading','Dance'], country: "India"},
 ];
 
-const reducer = (state = intialState, action) => {
+const reducer = (state = [], action) => {
     //Payload will have all information about new user like intialState 
     if(action.type === 'ADD_Student' )
     {

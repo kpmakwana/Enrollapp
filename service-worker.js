@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Enrollapp/precache-manifest.200ceb27910f1f700d89c9bca44db18c.js"
+  "/Enrollapp/precache-manifest.f6a650dd13ec97370cc6717b60eb7ae3.js"
 );
 
 self.addEventListener('message', (event) => {

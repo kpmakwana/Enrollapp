@@ -17,8 +17,8 @@ export default class App extends Component {
 			<nav>
 				<ul className="nav-links">
 
-          <Link className="nav-link" to='/details' >All students</Link>
           <Link className="nav-link" to='/' >Registration Form</Link>
+          <Link className="nav-link" to='/details' >All students</Link>
 
 					<li><a className="nav-link" id='git-link' href="https://github.com/kpmakwana" target="blank">Git</a></li>
 				</ul>

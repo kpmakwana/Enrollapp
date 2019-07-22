@@ -1,6 +1,6 @@
 Student Enrolment App built using ReactJS and data stored using Redux.
 
-You can view it [http://kpmakwana.github.io/Enrollapp/]{here}
+You can view it [here](http://kpmakwana.github.io/Enrollapp/)
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

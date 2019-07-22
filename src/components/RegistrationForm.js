@@ -135,7 +135,7 @@ class StudentForm extends Component {
                 </div>
             </div>
             <div className="form-group row">
-                <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Retype Password</label>
+                <label htmlFor="inputPassword3" className="col-sm-2 col-form-label">Confirm Password</label>
                 <div className="col-sm-10">
                 <input type="password" className="form-control" name="repassword" placeholder="Password"  onChange={this.onInputChange}/>
                 <div className="error" id="pwd-match">Passwords didn't matched</div>

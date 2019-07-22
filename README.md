@@ -1,4 +1,4 @@
-Student Enrolment App built using ReactJS, Used Redux to Store all data.
+Student Enrolment App built using ReactJS and data stored using Redux.
 
 
 
